@@ -1,0 +1,68 @@
+{
+    "game_id": 597399,
+    "title": "Life in Quarantine",
+    "url": "https://mvolution.itch.io/quarantine",
+    "cover_url": "https://img.itch.zone/aW1nLzMxNjgyOTgucG5n/original/INh72y.png",
+    "screenshots": [
+        "https://img.itch.zone/aW1hZ2UvNTk3Mzk5LzM4NjgxNTkucG5n/original/DVuvGL.png",
+        "https://img.itch.zone/aW1hZ2UvNTk3Mzk5LzM4NjgyMjUucG5n/original/6rcWYv.png",
+        "https://img.itch.zone/aW1hZ2UvNTk3Mzk5LzM4NjgxNDkucG5n/original/V3FwM%2B.png",
+        "https://img.itch.zone/aW1hZ2UvNTk3Mzk5LzM1MzYyNzAucG5n/original/rtrhb7.png"
+    ],
+    "description": "A Single- and Multiplayer game about having a walk with your dog.",
+    "author": "mvolution",
+    "author_url": "https://mvolution.itch.io",
+    "extra": {
+        "status": "Released",
+        "platforms": [
+            "HTML5",
+            "Windows",
+            "macOS",
+            "Linux",
+            "Android"
+        ],
+        "tools": {
+            "Godot": "https://itch.io/games/made-with-godot",
+            "Aseprite": "https://itch.io/games/made-with-aseprite"
+        },
+        "tags": {
+            "2D": "https://itch.io/games/tag-2d",
+            "Casual": "https://itch.io/games/tag-casual",
+            "Co-op": "https://itch.io/games/tag-co-op",
+            "Multiplayer": "https://itch.io/games/tag-multiplayer",
+            "offline": "https://itch.io/games/tag-offline",
+            "Pixel Art": "https://itch.io/games/tag-pixel-art",
+            "quarantine": "https://itch.io/games/tag-quarantine",
+            "Retro": "https://itch.io/games/tag-retro",
+            "Singleplayer": "https://itch.io/games/tag-singleplayer",
+            "Stealth": "https://itch.io/games/tag-stealth"
+        },
+        "length": "A few minutes",
+        "languages": {
+            "German": "https://itch.io/games/lang-de",
+            "English": "https://itch.io/games/lang-en",
+            "Spanish; Castilian": "https://itch.io/games/lang-es",
+            "Spanish; Latin America": "https://itch.io/games/lang-es-419"
+        },
+        "inputs": {
+            "Keyboard": "https://itch.io/games/input-keyboard",
+            "Mouse": "https://itch.io/games/input-mouse",
+            "Touchscreen": "https://itch.io/games/input-touchscreen",
+            "Smartphone": "https://itch.io/games/input-phone"
+        },
+        "accessibility": {
+            "Color-blind friendly": "https://itch.io/games/accessibility-colorblind",
+            "Subtitles": "https://itch.io/games/accessibility-subtitles",
+            "Interactive tutorial": "https://itch.io/games/accessibility-tutorial"
+        },
+        "multiplayer": {
+            "Server-based networked multiplayer": "https://itch.io/games/multiplayer-server"
+        }
+    },
+    "rating": {
+        "average": 4.5,
+        "votes": 81
+    },
+    "errors": [],
+    "external_downloads": []
+}
