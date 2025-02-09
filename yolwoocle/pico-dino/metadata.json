@@ -1,0 +1,63 @@
+{
+    "game_id": 852099,
+    "title": "Pico Dino",
+    "url": "https://yolwoocle.itch.io/pico-dino",
+    "cover_url": "https://img.itch.zone/aW1nLzQ3NzgyOTUucG5n/original/Fzadf1.png",
+    "screenshots": [
+        "https://img.itch.zone/aW1hZ2UvODUyMDk5LzQ3ODQxMzQuZ2lm/original/3LXL8w.gif",
+        "https://img.itch.zone/aW1hZ2UvODUyMDk5LzQ3ODQxMzcucG5n/original/%2Fjcle8.png",
+        "https://img.itch.zone/aW1hZ2UvODUyMDk5LzQ3ODQxMzYucG5n/original/0qJS6%2F.png",
+        "https://img.itch.zone/aW1hZ2UvODUyMDk5LzQ3ODQxMzUuZ2lm/original/784OFu.gif",
+        "https://img.itch.zone/aW1hZ2UvODUyMDk5LzQ3ODQxMzMucG5n/original/O4U2Si.png"
+    ],
+    "description": "A reimagination of Google Chrome's offline game",
+    "author": "Yolwoocle",
+    "author_url": "https://yolwoocle.itch.io",
+    "extra": {
+        "status": "Released",
+        "platforms": [
+            "HTML5"
+        ],
+        "genre": {
+            "Platformer": "https://itch.io/games/genre-platformer"
+        },
+        "tools": {
+            "PICO-8": "https://itch.io/games/made-with-pico-8"
+        },
+        "tags": {
+            "Arcade": "https://itch.io/games/tag-arcade",
+            "chrome": "https://itch.io/games/tag-chrome",
+            "Dinosaurs": "https://itch.io/games/tag-dinosaurs",
+            "Game Boy": "https://itch.io/games/tag-gameboy",
+            "google": "https://itch.io/games/tag-google",
+            "no-internet": "https://itch.io/games/tag-no-internet",
+            "offline": "https://itch.io/games/tag-offline",
+            "Retro": "https://itch.io/games/tag-retro",
+            "Runner": "https://itch.io/games/tag-runner",
+            "t-rex": "https://itch.io/games/tag-t-rex"
+        },
+        "length": "A few minutes",
+        "languages": {
+            "English": "https://itch.io/games/lang-en"
+        },
+        "inputs": {
+            "Keyboard": "https://itch.io/games/input-keyboard",
+            "Gamepad (any)": "https://itch.io/games/input-gamepad",
+            "Joystick": "https://itch.io/games/input-joystick",
+            "Touchscreen": "https://itch.io/games/input-touchscreen",
+            "Smartphone": "https://itch.io/games/input-phone"
+        },
+        "accessibility": {
+            "Color-blind friendly": "https://itch.io/games/accessibility-colorblind",
+            "High-contrast": "https://itch.io/games/accessibility-highcontrast",
+            "One button": "https://itch.io/games/accessibility-one-button",
+            "Textless": "https://itch.io/games/accessibility-textless"
+        }
+    },
+    "rating": {
+        "average": 5.0,
+        "votes": 19
+    },
+    "errors": [],
+    "external_downloads": []
+}

@@ -1,0 +1,1830 @@
+<!DOCTYPE HTML>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="#fff1e8" name="theme-color"/>
+  <meta content="https://img.itch.zone/aW1nLzQ3NzgyOTUucG5n/original/Fzadf1.png" property="og:image"/>
+  <link href="https://img.itch.zone/aW1nLzQ3NzgyOTUucG5n/32x32%23/2nhMvo.png" rel="icon" type="image/png"/>
+  <meta content="itch.io" property="og:site_name"/>
+  <meta content="4503599627724030" property="twitter:account_id"/>
+  <meta content="A reimagination of Google Chrome's offline game" property="og:description"/>
+  <meta content="A reimagination of Google Chrome's offline game" name="description"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="games/852099" name="itch:path"/>
+  <link href="https://yolwoocle.itch.io/pico-dino/devlog.rss" rel="alternate" title="Pico Dino Devlog" type="application/rss+xml"/>
+  <meta content="@itchio" name="twitter:site"/>
+  <meta content="Pico Dino by Yolwoocle" name="twitter:title"/>
+  <meta content="A reimagination of Google Chrome's offline game. Play in your browser" name="twitter:description"/>
+  <meta content="summary_large_image" name="twitter:card"/>
+  <meta content="https://img.itch.zone/aW1nLzQ3NzgyOTUucG5n/508x254%23mb/GyBXHX.png" property="twitter:image"/>
+  <meta content="https://yolwoocle.itch.io/pico-dino" name="twitter:url"/>
+  <script type="application/ld+json">
+   {"itemListElement":[{"position":1,"@type":"ListItem","item":{"@id":"https:\/\/itch.io\/games","name":"Games"}},{"position":2,"@type":"ListItem","item":{"@id":"https:\/\/itch.io\/games\/genre-platformer","name":"Platformer"}},{"position":3,"@type":"ListItem","item":{"@id":"https:\/\/itch.io\/games\/free","name":"Free"}}],"@context":"http:\/\/schema.org","@type":"BreadcrumbList"}
+  </script>
+  <script type="application/ld+json">
+   {"name":"Pico Dino","aggregateRating":{"ratingValue":"5.0","@type":"AggregateRating","ratingCount":19},"@type":"Product","description":"A reimagination of Google Chrome's offline game","@context":"http:\/\/schema.org\/"}
+  </script>
+  <title>
+   Pico Dino by Yolwoocle
+  </title>
+  <meta name="csrf_token" value="WyJra3UwIiwxNzM5MTEzNDYxLCJYNWY0RklCeU80b0doYzMiXQ==.nzeE+GJEBo75eWC6kF7wUYgAuLQ="/>
+  <link href="https://static.itch.io/game.css?1738992259" rel="stylesheet"/>
+  <script type="text/javascript">
+   window.itchio_translations_url = 'https://static.itch.io/translations';
+  </script>
+  <script src="https://static.itch.io/lib.min.js?1738992259" type="text/javascript">
+  </script>
+  <script src="https://static.itch.io/bundle.min.js?1738992259" type="text/javascript">
+  </script>
+  <script src="https://static.itch.io/lib/jquery.maskMoney.js" type="text/javascript">
+  </script>
+  <script data-src="https://static.itch.io/react.min.js?1738992259" id="lib_react_src">
+  </script>
+  <script src="https://static.itch.io/game.min.js?1738992259" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   I.current_user = null;I.subdomain = true;
+  </script>
+  <script type="text/javascript">
+   if (!window.location.hostname.match(/localhost/)) {      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "G-36R7NPBMLS", {});
+      (function(d, t, s, m) {
+        s = d.createElement(t);
+        s.src = "https:\/\/www.googletagmanager.com\/gtag\/js?id=G-36R7NPBMLS";
+        s.async = 1;
+        m = d.getElementsByTagName(t)[0];
+        m.parentNode.insertBefore(s, m);
+      })(document, "script");
+      }
+  </script>
+  <style id="game_theme" type="text/css">
+   :root{--itchio_ui_bg: #5b5957;--itchio_ui_bg_dark: #555250}.wrapper{--itchio_font_family: sans-serif;--itchio_bg_color: #fff1e8;--itchio_bg2_color: rgba(255, 241, 232, 1);--itchio_bg2_sub: #e6d8cf;--itchio_text_color: #5f574f;--itchio_link_color: #8f9095;--itchio_border_color: #f5c4a5;--itchio_button_color: #8f9095;--itchio_button_fg_color: #ffffff;--itchio_button_shadow_color: #797a7f;background-color:#fff1e8;/*! */  /* */}.inner_column{color:#5f574f;font-family:sans-serif,Lato,LatoExtended,sans-serif;background-color:rgba(255, 241, 232, 1)}.inner_column ::selection{color:#ffffff;background:#8f9095}.inner_column ::-moz-selection{color:#ffffff;background:#8f9095}.inner_column h1,.inner_column h2,.inner_column h3,.inner_column h4,.inner_column h5,.inner_column h6{font-family:inherit;font-weight:bold;color:inherit}.inner_column a,.inner_column .footer a{color:#8f9095}.inner_column .button,.inner_column .button:hover,.inner_column .button:active{background-color:#8f9095;color:#ffffff;text-shadow:0 1px 0px #797a7f}.inner_column hr{background-color:#f5c4a5}.inner_column table{border-color:#f5c4a5}.inner_column .redactor-box .redactor-toolbar li a{color:#8f9095}.inner_column .redactor-box .redactor-toolbar li a:hover,.inner_column .redactor-box .redactor-toolbar li a:active,.inner_column .redactor-box .redactor-toolbar li a.redactor-act{background-color:#8f9095 !important;color:#ffffff !important;text-shadow:0 1px 0px #797a7f !important}.inner_column .redactor-box .redactor-toolbar .re-button-tooltip{text-shadow:none}.game_frame{background:#e6d8cf;/*! */  /* */}.game_frame .embed_info{background-color:rgba(255, 241, 232, 0.85)}.game_loading .loader_bar .loader_bar_slider{background-color:#8f9095}.view_game_page .reward_row,.view_game_page .bundle_row{border-color:#e6d8cf !important}.view_game_page .game_info_panel_widget{background:rgba(230, 216, 207, 1)}.view_game_page .star_value .star_fill{color:#8f9095}.view_game_page .rewards .quantity_input{background:rgba(252, 251, 250, 1);border-color:rgba(95, 87, 79, 0.5);color:#5f574f}.view_game_page .right_col{display:none}.game_devlog_page li .meta_row .post_likes{border-color:#e6d8cf}.game_devlog_post_page .post_like_button{box-shadow:inset 0 0 0 1px #f5c4a5}.game_comments_widget .community_post .post_footer a,.game_comments_widget .community_post .post_footer .vote_btn,.game_comments_widget .community_post .post_header .post_date a,.game_comments_widget .community_post .post_header .edit_message{color:rgba(95, 87, 79, 0.5)}.game_comments_widget .community_post .reveal_full_post_btn{background:linear-gradient(to bottom, transparent, #fff1e8 50%, #fff1e8);color:#8f9095}.game_comments_widget .community_post .post_votes{border-color:rgba(95, 87, 79, 0.2)}.game_comments_widget .community_post .post_votes .vote_btn:hover{background:rgba(95, 87, 79, 0.05)}.game_comments_widget .community_post .post_footer .vote_btn{border-color:rgba(95, 87, 79, 0.5)}.game_comments_widget .community_post .post_footer .vote_btn span{color:inherit}.game_comments_widget .community_post .post_footer .vote_btn:hover,.game_comments_widget .community_post .post_footer .vote_btn.voted{background-color:#8f9095;color:#ffffff;text-shadow:0 1px 0px #797a7f;border-color:#8f9095}.game_comments_widget .form .redactor-box,.game_comments_widget .form .click_input,.game_comments_widget .form .forms_markdown_input_widget{border-color:rgba(95, 87, 79, 0.5);background:transparent}.game_comments_widget .form .redactor-layer,.game_comments_widget .form .redactor-toolbar,.game_comments_widget .form .click_input,.game_comments_widget .form .forms_markdown_input_widget{background:rgba(252, 251, 250, 1)}.game_comments_widget .form .forms_markdown_input_widget .markdown_toolbar button{color:inherit;opacity:0.6}.game_comments_widget .form .forms_markdown_input_widget .markdown_toolbar button:hover,.game_comments_widget .form .forms_markdown_input_widget .markdown_toolbar button:active{opacity:1;background-color:#8f9095 !important;color:#ffffff !important;text-shadow:0 1px 0px #797a7f !important}.game_comments_widget .form .forms_markdown_input_widget .markdown_toolbar,.game_comments_widget .form .forms_markdown_input_widget li{border-color:rgba(95, 87, 79, 0.5)}.game_comments_widget .form textarea{border-color:rgba(95, 87, 79, 0.5);background:rgba(252, 251, 250, 1);color:inherit}.game_comments_widget .form .redactor-toolbar{border-color:rgba(95, 87, 79, 0.5)}.game_comments_widget .hint{color:rgba(95, 87, 79, 0.5)}.game_community_preview_widget .community_topic_row .topic_tag{background-color:#e6d8cf}.footer .svgicon,.view_game_page .more_information_toggle .svgicon{fill:#5f574f !important}
+  </style>
+ </head>
+ <body class="embedded_game locale_en game_layout_widget layout_widget responsive no_theme_toggle" data-host="itch.io" data-page_name="view_game">
+  <ul class="user_tools hidden" id="user_tools">
+   <li>
+    <a class="action_btn view_more" href="https://yolwoocle.itch.io">
+     <svg aria-hidden="" class="svgicon icon_itchio_new" height="16" role="img" version="1.1" viewbox="0 0 262.728 235.452" width="18">
+      <path d="M31.99 1.365C21.287 7.72.2 31.945 0 38.298v10.516C0 62.144 12.46 73.86 23.773 73.86c13.584 0 24.902-11.258 24.903-24.62 0 13.362 10.93 24.62 24.515 24.62 13.586 0 24.165-11.258 24.165-24.62 0 13.362 11.622 24.62 25.207 24.62h.246c13.586 0 25.208-11.258 25.208-24.62 0 13.362 10.58 24.62 24.164 24.62 13.585 0 24.515-11.258 24.515-24.62 0 13.362 11.32 24.62 24.903 24.62 11.313 0 23.773-11.714 23.773-25.046V38.298c-.2-6.354-21.287-30.58-31.988-36.933C180.118.197 157.056-.005 122.685 0c-34.37.003-81.228.54-90.697 1.365zm65.194 66.217a28.025 28.025 0 0 1-4.78 6.155c-5.128 5.014-12.157 8.122-19.906 8.122a28.482 28.482 0 0 1-19.948-8.126c-1.858-1.82-3.27-3.766-4.563-6.032l-.006.004c-1.292 2.27-3.092 4.215-4.954 6.037a28.5 28.5 0 0 1-19.948 8.12c-.934 0-1.906-.258-2.692-.528-1.092 11.372-1.553 22.24-1.716 30.164l-.002.045c-.02 4.024-.04 7.333-.06 11.93.21 23.86-2.363 77.334 10.52 90.473 19.964 4.655 56.7 6.775 93.555 6.788h.006c36.854-.013 73.59-2.133 93.554-6.788 12.883-13.14 10.31-66.614 10.52-90.474-.022-4.596-.04-7.905-.06-11.93l-.003-.045c-.162-7.926-.623-18.793-1.715-30.165-.786.27-1.757.528-2.692.528a28.5 28.5 0 0 1-19.948-8.12c-1.862-1.822-3.662-3.766-4.955-6.037l-.006-.004c-1.294 2.266-2.705 4.213-4.563 6.032a28.48 28.48 0 0 1-19.947 8.125c-7.748 0-14.778-3.11-19.906-8.123a28.025 28.025 0 0 1-4.78-6.155 27.99 27.99 0 0 1-4.736 6.155 28.49 28.49 0 0 1-19.95 8.124c-.27 0-.54-.012-.81-.02h-.007c-.27.008-.54.02-.813.02a28.49 28.49 0 0 1-19.95-8.123 27.992 27.992 0 0 1-4.736-6.155zm-20.486 26.49l-.002.01h.015c8.113.017 15.32 0 24.25 9.746 7.028-.737 14.372-1.105 21.722-1.094h.006c7.35-.01 14.694.357 21.723 1.094 8.93-9.747 16.137-9.73 24.25-9.746h.014l-.002-.01c3.833 0 19.166 0 29.85 30.007L210 165.244c8.504 30.624-2.723 31.373-16.727 31.4-20.768-.773-32.267-15.855-32.267-30.935-11.496 1.884-24.907 2.826-38.318 2.827h-.006c-13.412 0-26.823-.943-38.318-2.827 0 15.08-11.5 30.162-32.267 30.935-14.004-.027-25.23-.775-16.726-31.4L46.85 124.08c10.684-30.007 26.017-30.007 29.85-30.007zm45.985 23.582v.006c-.02.02-21.863 20.08-25.79 27.215l14.304-.573v12.474c0 .584 5.74.346 11.486.08h.006c5.744.266 11.485.504 11.485-.08v-12.474l14.304.573c-3.928-7.135-25.79-27.215-25.79-27.215v-.006l-.003.002z">
+      </path>
+     </svg>
+     <span class="full_label">
+      View all by Yolwoocle
+     </span>
+     <span class="mobile_label">
+      Yolwoocle
+     </span>
+    </a>
+   </li>
+   <li>
+    <a class="follow_user_btn action_btn" data-follow_url="https://yolwoocle.itch.io/-/follow?source=game" data-register_action="follow_user" data-unfollow_url="https://yolwoocle.itch.io/-/unfollow?source=game" data-user_id="2075623" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=follow_user">
+     <svg aria-hidden="" class="svgicon icon_user_plus on_follow" fill="none" height="18" role="img" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" version="1.1" viewbox="0 0 24 24" width="18">
+      <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2">
+      </path>
+      <circle cx="8.5" cy="7" r="4">
+      </circle>
+      <line x1="20" x2="20" y1="8" y2="14">
+      </line>
+      <line x1="23" x2="17" y1="11" y2="11">
+      </line>
+     </svg>
+     <svg aria-hidden="" class="svgicon icon_user_check on_unfollow" fill="none" height="18" role="img" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" version="1.1" viewbox="0 0 24 24" width="18">
+      <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2">
+      </path>
+      <circle cx="8.5" cy="7" r="4">
+      </circle>
+      <polyline points="17 11 19 13 23 9">
+      </polyline>
+     </svg>
+     <span class="on_follow">
+      <span class="full_label">
+       Follow Yolwoocle
+      </span>
+      <span class="mobile_label">
+       Follow
+      </span>
+     </span>
+     <span class="on_unfollow">
+      <span class="full_label">
+       Following Yolwoocle
+      </span>
+      <span class="mobile_label">
+       Following
+      </span>
+     </span>
+    </a>
+   </li>
+   <li>
+    <a class="action_btn add_to_collection_btn" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=add_to_collection">
+     <svg aria-hidden="" class="svgicon icon_collection_add2" fill="none" height="18" role="img" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" version="1.1" viewbox="0 0 24 24" width="18">
+      <path d="M 1,6 H 14">
+      </path>
+      <path d="M 1,11 H 14">
+      </path>
+      <path d="m 1,16 h 9">
+      </path>
+      <path d="M 18,11 V 21">
+      </path>
+      <path d="M 13,16 H 23">
+      </path>
+     </svg>
+     <span class="full_label">
+      Add To Collection
+     </span>
+     <span class="mobile_label">
+      Collection
+     </span>
+    </a>
+   </li>
+   <li class="community_link">
+    <a class="action_btn" href="https://yolwoocle.itch.io/pico-dino#comments">
+     <svg aria-hidden="" class="svgicon icon_comment" fill="none" height="18" role="img" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" version="1.1" viewbox="0 0 24 24" width="18">
+      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z">
+      </path>
+     </svg>
+     Comments
+    </a>
+   </li>
+   <li class="devlog_link">
+    <a class="action_btn" href="https://yolwoocle.itch.io/pico-dino/devlog">
+     <svg aria-hidden="" class="svgicon icon_news" fill="none" height="18" role="img" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" version="1.1" viewbox="0 0 24 24" width="18">
+      <rect height="18" rx="2" ry="2" width="22" x="1" y="3">
+      </rect>
+      <line x1="6" x2="18" y1="8" y2="8">
+      </line>
+      <line x1="6" x2="18" y1="12" y2="12">
+      </line>
+      <line x1="6" x2="18" y1="16" y2="16">
+      </line>
+     </svg>
+     Devlog
+    </a>
+   </li>
+   <li>
+    <a class="action_btn related_games_btn" data-label="related_btn" href="https://itch.io/games-like/852099/pico-dino" target="_blank">
+     <svg aria-hidden="" class="svgicon icon_map" fill="none" height="18" role="img" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" version="1.1" viewbox="0 0 24 24" width="18">
+      <polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6">
+      </polygon>
+      <line x1="8" x2="8" y1="2" y2="18">
+      </line>
+      <line x1="16" x2="16" y1="6" y2="22">
+      </line>
+     </svg>
+     <span class="full_label">
+      Related games
+     </span>
+     <span class="mobile_label">
+      Related
+     </span>
+    </a>
+   </li>
+  </ul>
+  <script type="text/javascript">
+   new I.GameUserTools('#user_tools')
+  </script>
+  <div class="main wrapper" id="wrapper">
+   <div class="inner_column size_large family_sans-serif" id="inner_column">
+    <div class="header" id="header">
+     <h1 class="game_title" itemprop="name">
+      Pico Dino
+     </h1>
+    </div>
+    <div class="view_html_game_page view_game_page page_widget base_widget ready" id="view_html_game_1977899">
+     <div class="html_embed_widget base_widget embed_wrapper" id="html_embed_9453909">
+      <div class="game_frame game_loaded" data-height="640" data-width="750" style="width: 750px; height: 640px">
+       <iframe allow="autoplay; fullscreen *; geolocation; microphone; camera; midi; monetization; xr-spatial-tracking; gamepad; gyroscope; accelerometer; xr; cross-origin-isolated; web-share" allowfullscreen="true" allowtransparency="true" frameborder="0" id="game_drop" mozallowfullscreen="true" msallowfullscreen="true" scrolling="no" src="https://html-classic.itch.zone/html/12423680/index.html" webkitallowfullscreen="true">
+       </iframe>
+      </div>
+     </div>
+     <div class="donate">
+      <a class="button donate_btn" data-donate="true" href="https://yolwoocle.itch.io/pico-dino/donate">
+       Support This Game
+      </a>
+     </div>
+     <div class="columns">
+      <div class="left_col column">
+       <div class="formatted_description user_formatted">
+        <h1>
+         Pico Dino
+        </h1>
+        <p>
+         Pico Dino is a reimagination of Google Chrome's offline dinosaur game!
+        </p>
+        <p>
+         Features a new moveset and graphics!
+        </p>
+        <h4>
+         Controls:
+        </h4>
+        <ul>
+         <li>
+          Jump - Up arrow / C
+         </li>
+         <li>
+          Crouch - Down arrow / X
+         </li>
+        </ul>
+        <p>
+         Made with love using Pico-8 by
+         <a href="https://yolwoocle.itch.io/" target="_blank">
+          Yolwoocle
+         </a>
+         <br/>
+         <strong>
+          Jan 2025 update
+         </strong>
+         : 60 FPS port courtesy of
+         <a href="https://jpshoe.itch.io/" target="_blank">
+          JPshoe
+         </a>
+         <br/>
+        </p>
+        <p>
+         This game is licensed under
+         <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" referrerpolicy="origin" rel="nofollow noopener">
+          CC BY-NC-SA 4.0
+         </a>
+         . Please ask me for permission before reusing within a commercial context (I will probably say yes!
+         <a href="https://yolwoocle.com/about" referrerpolicy="origin" rel="nofollow noopener">
+          Contact me here
+         </a>
+         ).
+         <br/>
+        </p>
+        <h1>
+         <img loading="lazy" src="https://img.itch.zone/aW1nLzQ3ODQxNDcuZ2lm/original/Q7k885.gif" style="max-width: 100%"/>
+        </h1>
+        <h1>
+         <img loading="lazy" src="https://img.itch.zone/aW1nLzQ3ODQxNTAucG5n/original/6gPuH2.png"/>
+        </h1>
+        <p>
+         <img loading="lazy" src="https://img.itch.zone/aW1nLzQ3ODQxNTkuZ2lm/original/Mq3Fg%2F.gif"/>
+        </p>
+        <p>
+         <img loading="lazy" src="https://img.itch.zone/aW1nLzQ3ODQxNjIucG5n/original/nnMw%2Bj.png"/>
+         <br/>
+        </p>
+        <p>
+         <img loading="lazy" src="https://img.itch.zone/aW1nLzQ3ODQxNjkucG5n/original/LpQkLQ.png"/>
+         <br/>
+        </p>
+       </div>
+       <div class="more_information_toggle">
+        <div class="toggle_row">
+         <a class="toggle_info_btn" href="javascript:void(0)">
+          More information
+          <svg aria-hidden="" class="svgicon icon_down_tick" height="6" role="img" version="1.1" viewbox="0 0 37 20" width="12">
+           <path d="m2.0858 0c-1.1535 0-2.0858 0.86469-2.0858 1.9331 0 0.5139 0.21354 1.0183 0.38704 1.1881l18.113 16.879 18.112-16.879c0.174-0.1696 0.388-0.674 0.388-1.1879 0-1.0684-0.932-1.9331-2.086-1.9331-0.577 0-1.111 0.23008-1.49 0.57992l-14.924 13.894-14.925-13.893c-0.3777-0.34998-0.9134-0.581-1.4902-0.581z">
+           </path>
+          </svg>
+         </a>
+        </div>
+        <div class="info_panel_wrapper">
+         <div class="game_info_panel_widget base_widget" id="game_info_panel_4351115">
+          <table>
+           <tbody>
+            <tr>
+             <td>
+              Status
+             </td>
+             <td>
+              <a href="https://itch.io/games/released">
+               Released
+              </a>
+             </td>
+            </tr>
+            <tr>
+             <td>
+              Platforms
+             </td>
+             <td>
+              <a href="https://itch.io/games/html5">
+               HTML5
+              </a>
+             </td>
+            </tr>
+            <tr>
+             <td>
+              Rating
+             </td>
+             <td>
+              <div class="aggregate_rating" itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating" title="5.0">
+               <div class="star_value" content="5.0" itemprop="ratingValue">
+                <span class="screenreader_only">
+                 Rated 5.0 out of 5 stars
+                </span>
+                <div class="star_fill" style="width: 100.00000%">
+                 <span aria-hidden="true" class="star icon-star">
+                 </span>
+                 <span aria-hidden="true" class="star icon-star">
+                 </span>
+                 <span aria-hidden="true" class="star icon-star">
+                 </span>
+                 <span aria-hidden="true" class="star icon-star">
+                 </span>
+                 <span aria-hidden="true" class="star icon-star">
+                 </span>
+                </div>
+                <div class="star_holes">
+                 <span aria-hidden="true" class="star icon-star2">
+                 </span>
+                 <span aria-hidden="true" class="star icon-star2">
+                 </span>
+                 <span aria-hidden="true" class="star icon-star2">
+                 </span>
+                 <span aria-hidden="true" class="star icon-star2">
+                 </span>
+                 <span aria-hidden="true" class="star icon-star2">
+                 </span>
+                </div>
+               </div>
+               <span class="rating_count" content="19" itemprop="ratingCount">
+                (19
+                <span class="screenreader_only">
+                 total ratings
+                </span>
+                )
+               </span>
+              </div>
+             </td>
+            </tr>
+            <tr>
+             <td>
+              Author
+             </td>
+             <td>
+              <a href="https://yolwoocle.itch.io">
+               Yolwoocle
+              </a>
+             </td>
+            </tr>
+            <tr>
+             <td>
+              Genre
+             </td>
+             <td>
+              <a href="https://itch.io/games/genre-platformer">
+               Platformer
+              </a>
+             </td>
+            </tr>
+            <tr>
+             <td>
+              Made with
+             </td>
+             <td>
+              <a href="https://itch.io/games/made-with-pico-8">
+               PICO-8
+              </a>
+             </td>
+            </tr>
+            <tr>
+             <td>
+              Tags
+             </td>
+             <td>
+              <a href="https://itch.io/games/tag-arcade">
+               Arcade
+              </a>
+              ,
+              <a href="https://itch.io/games/tag-chrome">
+               chrome
+              </a>
+              ,
+              <a href="https://itch.io/games/tag-dinosaurs">
+               Dinosaurs
+              </a>
+              ,
+              <a href="https://itch.io/games/tag-gameboy">
+               Game Boy
+              </a>
+              ,
+              <a href="https://itch.io/games/tag-google">
+               google
+              </a>
+              ,
+              <a href="https://itch.io/games/tag-no-internet">
+               no-internet
+              </a>
+              ,
+              <a href="https://itch.io/games/tag-offline">
+               offline
+              </a>
+              ,
+              <a href="https://itch.io/games/tag-retro">
+               Retro
+              </a>
+              ,
+              <a href="https://itch.io/games/tag-runner">
+               Runner
+              </a>
+              ,
+              <a href="https://itch.io/games/tag-t-rex">
+               t-rex
+              </a>
+             </td>
+            </tr>
+            <tr>
+             <td>
+              Average session
+             </td>
+             <td>
+              <a href="https://itch.io/games/duration-minutes">
+               A few minutes
+              </a>
+             </td>
+            </tr>
+            <tr>
+             <td>
+              Languages
+             </td>
+             <td>
+              <a href="https://itch.io/games/lang-en">
+               English
+              </a>
+             </td>
+            </tr>
+            <tr>
+             <td>
+              Inputs
+             </td>
+             <td>
+              <a href="https://itch.io/games/input-keyboard">
+               Keyboard
+              </a>
+              ,
+              <a href="https://itch.io/games/input-gamepad">
+               Gamepad (any)
+              </a>
+              ,
+              <a href="https://itch.io/games/input-joystick">
+               Joystick
+              </a>
+              ,
+              <a href="https://itch.io/games/input-touchscreen">
+               Touchscreen
+              </a>
+              ,
+              <a href="https://itch.io/games/input-phone">
+               Smartphone
+              </a>
+             </td>
+            </tr>
+            <tr>
+             <td>
+              Accessibility
+             </td>
+             <td>
+              <a href="https://itch.io/games/accessibility-colorblind">
+               Color-blind friendly
+              </a>
+              ,
+              <a href="https://itch.io/games/accessibility-highcontrast">
+               High-contrast
+              </a>
+              ,
+              <a href="https://itch.io/games/accessibility-one-button">
+               One button
+              </a>
+              ,
+              <a href="https://itch.io/games/accessibility-textless">
+               Textless
+              </a>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </div>
+        </div>
+       </div>
+       <section class="game_devlog" id="devlog">
+        <h2>
+         Development log
+        </h2>
+        <ul>
+         <li>
+          <a href="https://yolwoocle.itch.io/pico-dino/devlog/863084/pico-dino-60-fps-update">
+           Pico Dino 60 FPS Update
+          </a>
+          <div class="post_date">
+           <abbr title="05 January 2025 @ 17:08 UTC">
+            <span aria-hidden="true" class="icon icon-stopwatch">
+            </span>
+            34 days ago
+           </abbr>
+          </div>
+         </li>
+        </ul>
+       </section>
+       <div class="game_comments_widget base_widget" id="game_comments_1438753">
+        <h2 id="comments">
+         Comments
+        </h2>
+        <p class="form_placeholder">
+         <a data-register_action="comment" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino">
+          Log in with itch.io
+         </a>
+         to leave a comment.
+        </p>
+        <div class="community_topic_posts_widget base_widget" id="community_topic_posts_812680">
+         <div class="community_post_list_widget base_widget" id="community_post_list_6060611">
+          <div class="community_post has_vote_column" data-post='{"id":11678350,"user_id":8459431}' id="post-11678350">
+           <div class="post_anchor" id="first-post">
+           </div>
+           <div class="post_grid">
+            <div class="post_votes">
+             <a class="vote_up_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote up">
+              <svg aria-hidden="" class="svgicon icon_vote_up" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+               <polygon points="2 18 12 6 22 18">
+               </polygon>
+              </svg>
+             </a>
+             <a class="vote_down_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote down">
+              <svg aria-hidden="" class="svgicon icon_vote_down" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+               <polygon points="2 6 12 18 22 6">
+               </polygon>
+              </svg>
+             </a>
+            </div>
+            <a class="avatar_container" href="https://itch.io/profile/kurogamedev">
+             <div class="post_avatar" style="background-image: url(https://img.itch.zone/aW1nLzEyODU5MTEzLnBuZw==/25x25%23/vP45nb.png)">
+             </div>
+            </a>
+            <div class="post_header">
+             <span class="post_author">
+              <a href="https://itch.io/profile/kurogamedev">
+               KuroGamedev
+              </a>
+             </span>
+             <span class="post_date" title="2024-12-28 05:25:18">
+              <a href="https://itch.io/post/11678350">
+               43 days ago
+              </a>
+             </span>
+             <span class="vote_counts">
+              <span class="upvotes">
+               (+2)
+              </span>
+             </span>
+            </div>
+            <div class="post_content">
+             <div class="post_body user_formatted" dir="auto">
+              <p>
+               Nice to see a lowres build of this concept.
+              </p>
+              <p>
+               One thing I noticed is when holding down the jump button, you will repeatedly jump in the air.  I don't know if this is intentional or not.  If not, one way to get around this would be to have a variable track that you are in the middle of a jump when holding down the button and if the game confirms your jump is still active (because you held down the key), it will not allow you to jump again.  Only problem I see with this is you have multiple keys for jumping, but since you appear to be a skilled coder, you would probably find a way around it.
+              </p>
+             </div>
+             <div class="post_footer">
+              <a class="post_action reply_btn" data-register_action="community_reply" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community">
+               Reply
+              </a>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="community_post has_vote_column" data-post='{"id":10923428,"user_id":10898871}' id="post-10923428">
+           <div class="post_grid">
+            <div class="post_votes">
+             <a class="vote_up_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote up">
+              <svg aria-hidden="" class="svgicon icon_vote_up" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+               <polygon points="2 18 12 6 22 18">
+               </polygon>
+              </svg>
+             </a>
+             <a class="vote_down_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote down">
+              <svg aria-hidden="" class="svgicon icon_vote_down" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+               <polygon points="2 6 12 18 22 6">
+               </polygon>
+              </svg>
+             </a>
+            </div>
+            <a class="avatar_container" href="https://itch.io/profile/studdaman28">
+             <div class="post_avatar" style="background-image: url(/static/images/frog-cyan.png)">
+             </div>
+            </a>
+            <div class="post_header">
+             <span class="post_author">
+              <a href="https://itch.io/profile/studdaman28">
+               Studdaman28
+              </a>
+             </span>
+             <span class="post_date" title="2024-09-17 16:30:28">
+              <a href="https://itch.io/post/10923428">
+               144 days ago
+              </a>
+             </span>
+             <span class="vote_counts">
+             </span>
+            </div>
+            <div class="post_content">
+             <div class="post_body user_formatted" dir="auto">
+              <p>
+               cmy i hve sprite s for scrtch recretion
+              </p>
+             </div>
+             <div class="post_footer">
+              <a class="post_action reply_btn" data-register_action="community_reply" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community">
+               Reply
+              </a>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="community_post has_vote_column has_replies" data-post='{"id":8999303,"user_id":9332570}' id="post-8999303">
+           <div class="post_grid">
+            <div class="post_votes">
+             <a class="vote_up_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote up">
+              <svg aria-hidden="" class="svgicon icon_vote_up" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+               <polygon points="2 18 12 6 22 18">
+               </polygon>
+              </svg>
+             </a>
+             <a class="vote_down_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote down">
+              <svg aria-hidden="" class="svgicon icon_vote_down" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+               <polygon points="2 6 12 18 22 6">
+               </polygon>
+              </svg>
+             </a>
+            </div>
+            <a class="avatar_container" href="https://itch.io/profile/iblime">
+             <div class="post_avatar" style="background-image: url(/static/images/frog.png)">
+             </div>
+            </a>
+            <div class="post_header">
+             <span class="post_author">
+              <a href="https://itch.io/profile/iblime">
+               iBlime
+              </a>
+             </span>
+             <span class="post_date" title="2023-12-08 12:18:42">
+              <a href="https://itch.io/post/8999303">
+               1 year ago
+              </a>
+             </span>
+             <span class="vote_counts">
+              <span class="upvotes">
+               (+1)
+              </span>
+             </span>
+            </div>
+            <div class="post_content">
+             <div class="post_body user_formatted" dir="auto">
+              <p>
+               <font>
+                <font>
+                 Disculpa podría utilizar un Sprite similar para mi proyecto?
+                </font>
+               </font>
+              </p>
+              <p>
+               <font>
+                <font>
+                 Es Sin ningún Fin Lucrativos 😮‍💨
+                </font>
+               </font>
+              </p>
+             </div>
+             <div class="post_footer">
+              <a class="post_action reply_btn" data-register_action="community_reply" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community">
+               Reply
+              </a>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="community_post_replies top_level_replies">
+           <div class="community_post has_vote_column is_reply" data-post='{"id":9026189,"user_id":2075623}' id="post-9026189">
+            <div class="post_grid">
+             <div class="post_votes">
+              <a class="vote_up_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote up">
+               <svg aria-hidden="" class="svgicon icon_vote_up" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+                <polygon points="2 18 12 6 22 18">
+                </polygon>
+               </svg>
+              </a>
+              <a class="vote_down_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote down">
+               <svg aria-hidden="" class="svgicon icon_vote_down" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+                <polygon points="2 6 12 18 22 6">
+                </polygon>
+               </svg>
+              </a>
+             </div>
+             <a class="avatar_container" href="https://itch.io/profile/yolwoocle">
+              <div class="post_avatar" style="background-image: url(https://img.itch.zone/aW1nLzE3ODc2OTE0LnBuZw==/25x25%23/2yXv48.png)">
+              </div>
+             </a>
+             <div class="post_header">
+              <span class="post_author">
+               <a href="https://itch.io/profile/yolwoocle">
+                Yolwoocle
+               </a>
+              </span>
+              <span class="post_date" title="2023-12-13 18:34:44">
+               <a href="https://itch.io/post/9026189">
+                1 year ago
+               </a>
+              </span>
+              <span class="vote_counts">
+               <span class="upvotes">
+                (+1)
+               </span>
+              </span>
+             </div>
+             <div class="post_content">
+              <div class="post_body user_formatted" dir="auto">
+               <p>
+                Ola, estoy usando un traductor para escribir este mensaje. Me parece bien que utilices los sprites de este juego. Sólo asegúrese de que usted me acredita en alguna parte y no pretender que usted los hizo. Mucha suerte. :)
+               </p>
+              </div>
+              <div class="post_footer">
+               <a class="post_action reply_btn" data-register_action="community_reply" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community">
+                Reply
+               </a>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="community_post has_vote_column has_replies" data-post='{"id":7498598,"user_id":6969883}' id="post-7498598">
+           <div class="post_grid">
+            <div class="post_votes">
+             <a class="vote_up_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote up">
+              <svg aria-hidden="" class="svgicon icon_vote_up" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+               <polygon points="2 18 12 6 22 18">
+               </polygon>
+              </svg>
+             </a>
+             <a class="vote_down_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote down">
+              <svg aria-hidden="" class="svgicon icon_vote_down" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+               <polygon points="2 6 12 18 22 6">
+               </polygon>
+              </svg>
+             </a>
+            </div>
+            <a class="avatar_container" href="https://itch.io/profile/zweletron-makes">
+             <div class="post_avatar" style="background-image: url(https://img.itch.zone/aW1nLzE0OTYyNzMwLnBuZw==/25x25%23/DxqR1Q.png)">
+             </div>
+            </a>
+            <div class="post_header">
+             <span class="post_author">
+              <a href="https://itch.io/profile/zweletron-makes">
+               Zweletron Makes
+              </a>
+             </span>
+             <span class="post_date" title="2023-03-17 06:51:37">
+              <a href="https://itch.io/post/7498598">
+               1 year ago
+              </a>
+             </span>
+             <span class="vote_counts">
+              <span class="upvotes">
+               (+2)
+              </span>
+             </span>
+            </div>
+            <div class="post_content">
+             <div class="post_body user_formatted" dir="auto">
+              <p>
+               SO CUTE
+              </p>
+             </div>
+             <div class="post_footer">
+              <a class="post_action reply_btn" data-register_action="community_reply" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community">
+               Reply
+              </a>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="community_post_replies top_level_replies">
+           <div class="community_post has_vote_column is_reply" data-post='{"id":7535765,"user_id":2075623}' id="post-7535765">
+            <div class="post_grid">
+             <div class="post_votes">
+              <a class="vote_up_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote up">
+               <svg aria-hidden="" class="svgicon icon_vote_up" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+                <polygon points="2 18 12 6 22 18">
+                </polygon>
+               </svg>
+              </a>
+              <a class="vote_down_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote down">
+               <svg aria-hidden="" class="svgicon icon_vote_down" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+                <polygon points="2 6 12 18 22 6">
+                </polygon>
+               </svg>
+              </a>
+             </div>
+             <a class="avatar_container" href="https://itch.io/profile/yolwoocle">
+              <div class="post_avatar" style="background-image: url(https://img.itch.zone/aW1nLzE3ODc2OTE0LnBuZw==/25x25%23/2yXv48.png)">
+              </div>
+             </a>
+             <div class="post_header">
+              <span class="post_author">
+               <a href="https://itch.io/profile/yolwoocle">
+                Yolwoocle
+               </a>
+              </span>
+              <span class="post_date" title="2023-03-25 12:17:27">
+               <a href="https://itch.io/post/7535765">
+                1 year ago
+               </a>
+              </span>
+              <span class="vote_counts">
+               <span class="upvotes">
+                (+1)
+               </span>
+              </span>
+             </div>
+             <div class="post_content">
+              <div class="post_body user_formatted" dir="auto">
+               <p>
+                Thanks!
+               </p>
+              </div>
+              <div class="post_footer">
+               <a class="post_action reply_btn" data-register_action="community_reply" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community">
+                Reply
+               </a>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="community_post has_vote_column has_replies" data-post='{"id":7178478,"user_id":6414229}' id="post-7178478">
+           <div class="post_grid">
+            <div class="post_votes">
+             <a class="vote_up_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote up">
+              <svg aria-hidden="" class="svgicon icon_vote_up" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+               <polygon points="2 18 12 6 22 18">
+               </polygon>
+              </svg>
+             </a>
+             <a class="vote_down_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote down">
+              <svg aria-hidden="" class="svgicon icon_vote_down" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+               <polygon points="2 6 12 18 22 6">
+               </polygon>
+              </svg>
+             </a>
+            </div>
+            <a class="avatar_container" href="https://itch.io/profile/mad-boi3">
+             <div class="post_avatar" style="background-image: url(/static/images/frog-blue.png)">
+             </div>
+            </a>
+            <div class="post_header">
+             <span class="post_author">
+              <a href="https://itch.io/profile/mad-boi3">
+               Mad_boi3
+              </a>
+             </span>
+             <span class="post_date" title="2023-01-15 22:57:19">
+              <a href="https://itch.io/post/7178478">
+               2 years ago
+              </a>
+             </span>
+             <span class="vote_counts">
+             </span>
+            </div>
+            <div class="post_content">
+             <div class="post_body user_formatted" dir="auto">
+              <p>
+               Hi, I would love a downloadable version for this game for mobile and pc so could you make them please? Nice animations btw
+              </p>
+             </div>
+             <div class="post_footer">
+              <a class="post_action reply_btn" data-register_action="community_reply" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community">
+               Reply
+              </a>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="community_post_replies top_level_replies">
+           <div class="community_post has_vote_column is_reply" data-post='{"id":7179884,"user_id":2075623}' id="post-7179884">
+            <div class="post_grid">
+             <div class="post_votes">
+              <a class="vote_up_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote up">
+               <svg aria-hidden="" class="svgicon icon_vote_up" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+                <polygon points="2 18 12 6 22 18">
+                </polygon>
+               </svg>
+              </a>
+              <a class="vote_down_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote down">
+               <svg aria-hidden="" class="svgicon icon_vote_down" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+                <polygon points="2 6 12 18 22 6">
+                </polygon>
+               </svg>
+              </a>
+             </div>
+             <a class="avatar_container" href="https://itch.io/profile/yolwoocle">
+              <div class="post_avatar" style="background-image: url(https://img.itch.zone/aW1nLzE3ODc2OTE0LnBuZw==/25x25%23/2yXv48.png)">
+              </div>
+             </a>
+             <div class="post_header">
+              <span class="post_author">
+               <a href="https://itch.io/profile/yolwoocle">
+                Yolwoocle
+               </a>
+              </span>
+              <span class="post_date" title="2023-01-16 06:37:12">
+               <a href="https://itch.io/post/7179884">
+                2 years ago
+               </a>
+              </span>
+              <span class="vote_counts">
+               <span class="upvotes">
+                (+1)
+               </span>
+              </span>
+             </div>
+             <div class="post_content">
+              <div class="post_body user_formatted" dir="auto">
+               <p>
+                Hi, no problem ! I'll do that later this evening. If you own PICO-8, you can do this on your own with the export command too.
+               </p>
+              </div>
+              <div class="post_footer">
+               <a class="post_action reply_btn" data-register_action="community_reply" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community">
+                Reply
+               </a>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="community_post has_vote_column" data-post='{"id":7175670,"user_id":2312882}' id="post-7175670">
+           <div class="post_grid">
+            <div class="post_votes">
+             <a class="vote_up_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote up">
+              <svg aria-hidden="" class="svgicon icon_vote_up" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+               <polygon points="2 18 12 6 22 18">
+               </polygon>
+              </svg>
+             </a>
+             <a class="vote_down_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote down">
+              <svg aria-hidden="" class="svgicon icon_vote_down" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+               <polygon points="2 6 12 18 22 6">
+               </polygon>
+              </svg>
+             </a>
+            </div>
+            <a class="avatar_container" href="https://itch.io/profile/pxldev">
+             <div class="post_avatar" style="background-image: url(https://img.itch.zone/aW1nLzUwNzYyMDgucG5n/25x25%23/MBhLZG.png)">
+             </div>
+            </a>
+            <div class="post_header">
+             <span class="post_author">
+              <a href="https://itch.io/profile/pxldev">
+               Pxl Dev
+              </a>
+             </span>
+             <span class="post_date" title="2023-01-15 10:35:09">
+              <a href="https://itch.io/post/7175670">
+               2 years ago
+              </a>
+             </span>
+             <span class="vote_counts">
+             </span>
+            </div>
+            <div class="post_content">
+             <div class="post_body user_formatted" dir="auto">
+              <p>
+               Cool
+              </p>
+             </div>
+             <div class="post_footer">
+              <a class="post_action reply_btn" data-register_action="community_reply" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community">
+               Reply
+              </a>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="community_post has_vote_column" data-post='{"id":7159720,"user_id":3742330}' id="post-7159720">
+           <div class="post_grid">
+            <div class="post_votes">
+             <a class="vote_up_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote up">
+              <svg aria-hidden="" class="svgicon icon_vote_up" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+               <polygon points="2 18 12 6 22 18">
+               </polygon>
+              </svg>
+             </a>
+             <a class="vote_down_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote down">
+              <svg aria-hidden="" class="svgicon icon_vote_down" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+               <polygon points="2 6 12 18 22 6">
+               </polygon>
+              </svg>
+             </a>
+            </div>
+            <a class="avatar_container" href="https://itch.io/profile/siviovi">
+             <div class="post_avatar" style="background-image: url(https://img.itch.zone/aW1nLzUyMjc1ODIuanBlZw==/25x25%23/%2B7dz65.jpeg)">
+             </div>
+            </a>
+            <div class="post_header">
+             <span class="post_author">
+              <a href="https://itch.io/profile/siviovi">
+               Siviovi
+              </a>
+             </span>
+             <span class="post_date" title="2023-01-11 12:09:12">
+              <a href="https://itch.io/post/7159720">
+               2 years ago
+              </a>
+             </span>
+             <span class="vote_counts">
+             </span>
+            </div>
+            <div class="post_content">
+             <div class="post_body user_formatted" dir="auto">
+              <p>
+              </p>
+              <div>
+               <button aria-label="Click to activate YouTube embed" class="embed_preload youtube_preload" data-embed_code='&lt;iframe width="500" height="281" src="//www.youtube.com/embed/zDH777pVqJU" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;' itchio="" style="width: 250px; height: 140px; background: url(https://i.ytimg.com/vi/zDH777pVqJU/hqdefault.jpg) 50% 50% no-repeat; background-size: cover" type="button">
+               </button>
+              </div>
+              <br/>
+              <p>
+              </p>
+              <p>
+               Hello !
+              </p>
+              <p>
+               I made a small video with the compilation of games on the theme "Runner"!
+              </p>
+              <p>
+               I played, I liked it! Good luck in the future with other projects!
+              </p>
+             </div>
+             <div class="post_footer">
+              <a class="post_action reply_btn" data-register_action="community_reply" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community">
+               Reply
+              </a>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="community_post has_vote_column has_replies" data-post='{"id":6862561,"user_id":5809041}' id="post-6862561">
+           <div class="post_grid">
+            <div class="post_votes">
+             <a class="vote_up_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote up">
+              <svg aria-hidden="" class="svgicon icon_vote_up" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+               <polygon points="2 18 12 6 22 18">
+               </polygon>
+              </svg>
+             </a>
+             <a class="vote_down_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote down">
+              <svg aria-hidden="" class="svgicon icon_vote_down" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+               <polygon points="2 6 12 18 22 6">
+               </polygon>
+              </svg>
+             </a>
+            </div>
+            <a class="avatar_container" href="https://itch.io/profile/boulderpunchergames">
+             <div class="post_avatar" style="background-image: url(https://img.itch.zone/aW1nLzg1MDU0MDcucG5n/25x25%23/IY1EkG.png)">
+             </div>
+            </a>
+            <div class="post_header">
+             <span class="post_author">
+              <a href="https://itch.io/profile/boulderpunchergames">
+               Boulder Puncher
+              </a>
+             </span>
+             <span class="post_date" title="2022-11-04 15:52:09">
+              <a href="https://itch.io/post/6862561">
+               2 years ago
+              </a>
+             </span>
+             <span class="vote_counts">
+             </span>
+            </div>
+            <div class="post_content">
+             <div class="post_body user_formatted" dir="auto">
+              <p>
+               961 on first try!!! Very fun btw!! Loved what u did with the sprites and the animation as well!
+              </p>
+             </div>
+             <div class="post_footer">
+              <a class="post_action reply_btn" data-register_action="community_reply" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community">
+               Reply
+              </a>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="community_post_replies top_level_replies">
+           <div class="community_post has_vote_column is_reply" data-post='{"id":6863834,"user_id":2075623}' id="post-6863834">
+            <div class="post_grid">
+             <div class="post_votes">
+              <a class="vote_up_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote up">
+               <svg aria-hidden="" class="svgicon icon_vote_up" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+                <polygon points="2 18 12 6 22 18">
+                </polygon>
+               </svg>
+              </a>
+              <a class="vote_down_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote down">
+               <svg aria-hidden="" class="svgicon icon_vote_down" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+                <polygon points="2 6 12 18 22 6">
+                </polygon>
+               </svg>
+              </a>
+             </div>
+             <a class="avatar_container" href="https://itch.io/profile/yolwoocle">
+              <div class="post_avatar" style="background-image: url(https://img.itch.zone/aW1nLzE3ODc2OTE0LnBuZw==/25x25%23/2yXv48.png)">
+              </div>
+             </a>
+             <div class="post_header">
+              <span class="post_author">
+               <a href="https://itch.io/profile/yolwoocle">
+                Yolwoocle
+               </a>
+              </span>
+              <span class="post_date" title="2022-11-04 21:17:17">
+               <a href="https://itch.io/post/6863834">
+                2 years ago
+               </a>
+              </span>
+              <span class="vote_counts">
+              </span>
+             </div>
+             <div class="post_content">
+              <div class="post_body user_formatted" dir="auto">
+               <p>
+                What an awesome score !! Thank you for playing!!
+               </p>
+              </div>
+              <div class="post_footer">
+               <a class="post_action reply_btn" data-register_action="community_reply" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community">
+                Reply
+               </a>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="community_post has_vote_column has_replies" data-post='{"id":5587314,"user_id":206164}' id="post-5587314">
+           <div class="post_grid">
+            <div class="post_votes">
+             <a class="vote_up_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote up">
+              <svg aria-hidden="" class="svgicon icon_vote_up" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+               <polygon points="2 18 12 6 22 18">
+               </polygon>
+              </svg>
+             </a>
+             <a class="vote_down_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote down">
+              <svg aria-hidden="" class="svgicon icon_vote_down" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+               <polygon points="2 6 12 18 22 6">
+               </polygon>
+              </svg>
+             </a>
+            </div>
+            <a class="avatar_container" href="https://itch.io/profile/edgardeivis">
+             <div class="post_avatar" style="background-image: url(/static/images/frog-blue.png)">
+             </div>
+            </a>
+            <div class="post_header">
+             <span class="post_author">
+              <a href="https://itch.io/profile/edgardeivis">
+               LWRC
+              </a>
+             </span>
+             <span class="post_date" title="2022-03-11 21:49:29">
+              <a href="https://itch.io/post/5587314">
+               2 years ago
+              </a>
+             </span>
+             <span class="vote_counts">
+             </span>
+            </div>
+            <div class="post_content">
+             <div class="post_body user_formatted" dir="auto">
+              <p>
+               highly unfamiliar with pico-8!
+               <br/>
+               are the squash and stretch done in code or are they a separate sprite?
+              </p>
+             </div>
+             <div class="post_footer">
+              <a class="post_action reply_btn" data-register_action="community_reply" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community">
+               Reply
+              </a>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="community_post_replies top_level_replies">
+           <div class="community_post has_vote_column is_reply" data-post='{"id":6522223,"user_id":2075623}' id="post-6522223">
+            <div class="post_grid">
+             <div class="post_votes">
+              <a class="vote_up_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote up">
+               <svg aria-hidden="" class="svgicon icon_vote_up" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+                <polygon points="2 18 12 6 22 18">
+                </polygon>
+               </svg>
+              </a>
+              <a class="vote_down_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote down">
+               <svg aria-hidden="" class="svgicon icon_vote_down" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+                <polygon points="2 6 12 18 22 6">
+                </polygon>
+               </svg>
+              </a>
+             </div>
+             <a class="avatar_container" href="https://itch.io/profile/yolwoocle">
+              <div class="post_avatar" style="background-image: url(https://img.itch.zone/aW1nLzE3ODc2OTE0LnBuZw==/25x25%23/2yXv48.png)">
+              </div>
+             </a>
+             <div class="post_header">
+              <span class="post_author">
+               <a href="https://itch.io/profile/yolwoocle">
+                Yolwoocle
+               </a>
+              </span>
+              <span class="post_date" title="2022-08-25 19:40:38">
+               <a href="https://itch.io/post/6522223">
+                2 years ago
+               </a>
+              </span>
+              <span class="vote_counts">
+              </span>
+             </div>
+             <div class="post_content">
+              <div class="post_body user_formatted" dir="auto">
+               <p>
+                Hey! Sorry about taking so long to answer, I didn't see your comment. These were done in code, using the sspr function. How are you enjoying PICO-8?
+               </p>
+              </div>
+              <div class="post_footer">
+               <a class="post_action reply_btn" data-register_action="community_reply" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community">
+                Reply
+               </a>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="community_post has_vote_column has_replies" data-post='{"id":5172919,"user_id":5043718}' id="post-5172919">
+           <div class="post_grid">
+            <div class="post_votes">
+             <a class="vote_up_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote up">
+              <svg aria-hidden="" class="svgicon icon_vote_up" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+               <polygon points="2 18 12 6 22 18">
+               </polygon>
+              </svg>
+             </a>
+             <a class="vote_down_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote down">
+              <svg aria-hidden="" class="svgicon icon_vote_down" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+               <polygon points="2 6 12 18 22 6">
+               </polygon>
+              </svg>
+             </a>
+            </div>
+            <a class="avatar_container" href="https://itch.io/profile/rydenji">
+             <div class="post_avatar" style="background-image: url(https://img.itch.zone/aW1nLzEzMDg4NzI5LnBuZw==/25x25%23/ybRlXj.png)">
+             </div>
+            </a>
+            <div class="post_header">
+             <span class="post_author">
+              <a href="https://itch.io/profile/rydenji">
+               Mastergemu
+              </a>
+             </span>
+             <span class="post_date" title="2022-01-07 13:25:17">
+              <a href="https://itch.io/post/5172919">
+               3 years ago
+              </a>
+             </span>
+             <span class="vote_counts">
+             </span>
+            </div>
+            <div class="post_content">
+             <div class="post_body user_formatted" dir="auto">
+              <p>
+               <font>
+                <font>
+                </font>
+               </font>
+              </p>
+              <p>
+               Hello,
+              </p>
+              <p>
+               I liked your game, can I reproduce it and publish it on the play store?
+              </p>
+              <p>
+               I lack inspiration.
+              </p>
+              <p>
+               Thank you
+              </p>
+             </div>
+             <div class="post_footer">
+              <a class="post_action reply_btn" data-register_action="community_reply" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community">
+               Reply
+              </a>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="community_post_replies top_level_replies">
+           <div class="community_post has_vote_column is_reply has_replies" data-post='{"id":5177786,"user_id":2075623}' id="post-5177786">
+            <div class="post_grid">
+             <div class="post_votes">
+              <a class="vote_up_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote up">
+               <svg aria-hidden="" class="svgicon icon_vote_up" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+                <polygon points="2 18 12 6 22 18">
+                </polygon>
+               </svg>
+              </a>
+              <a class="vote_down_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote down">
+               <svg aria-hidden="" class="svgicon icon_vote_down" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+                <polygon points="2 6 12 18 22 6">
+                </polygon>
+               </svg>
+              </a>
+             </div>
+             <a class="avatar_container" href="https://itch.io/profile/yolwoocle">
+              <div class="post_avatar" style="background-image: url(https://img.itch.zone/aW1nLzE3ODc2OTE0LnBuZw==/25x25%23/2yXv48.png)">
+              </div>
+             </a>
+             <div class="post_header">
+              <span class="post_author">
+               <a href="https://itch.io/profile/yolwoocle">
+                Yolwoocle
+               </a>
+              </span>
+              <span class="post_date" title="2022-01-08 08:24:31">
+               <a href="https://itch.io/post/5177786">
+                3 years ago
+               </a>
+              </span>
+              <span class="edit_message">
+               (1 edit)
+              </span>
+              <span class="vote_counts">
+              </span>
+             </div>
+             <div class="post_content">
+              <div class="post_body user_formatted" dir="auto">
+               <p>
+                Please do not copy or reproduce my game and upload it elsewhere. However, I am fine if you just take inspiration from my ideas without copying them (especially since this is not really an original idea). How about putting your own twist on it! :)
+               </p>
+              </div>
+              <div class="post_footer">
+               <a class="post_action reply_btn" data-register_action="community_reply" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community">
+                Reply
+               </a>
+              </div>
+             </div>
+            </div>
+           </div>
+           <div class="community_post_replies">
+            <div class="community_post has_vote_column is_reply has_replies" data-post='{"id":5178261,"user_id":5043718}' id="post-5178261">
+             <div class="post_grid">
+              <div class="post_votes">
+               <a class="vote_up_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote up">
+                <svg aria-hidden="" class="svgicon icon_vote_up" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+                 <polygon points="2 18 12 6 22 18">
+                 </polygon>
+                </svg>
+               </a>
+               <a class="vote_down_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote down">
+                <svg aria-hidden="" class="svgicon icon_vote_down" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+                 <polygon points="2 6 12 18 22 6">
+                 </polygon>
+                </svg>
+               </a>
+              </div>
+              <a class="avatar_container" href="https://itch.io/profile/rydenji">
+               <div class="post_avatar" style="background-image: url(https://img.itch.zone/aW1nLzEzMDg4NzI5LnBuZw==/25x25%23/ybRlXj.png)">
+               </div>
+              </a>
+              <div class="post_header">
+               <span class="post_author">
+                <a href="https://itch.io/profile/rydenji">
+                 Mastergemu
+                </a>
+               </span>
+               <span class="post_date" title="2022-01-08 12:10:13">
+                <a href="https://itch.io/post/5178261">
+                 3 years ago
+                </a>
+               </span>
+               <span class="vote_counts">
+               </span>
+              </div>
+              <div class="post_content">
+               <div class="post_body user_formatted" dir="auto">
+                <p>
+                 Ok, no problems
+                </p>
+                <p>
+                 thanks
+                </p>
+               </div>
+               <div class="post_footer">
+                <a class="post_action reply_btn" data-register_action="community_reply" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community">
+                 Reply
+                </a>
+               </div>
+              </div>
+             </div>
+            </div>
+            <div class="community_post_replies">
+             <div class="community_post has_vote_column is_reply has_replies" data-post='{"id":10364177,"user_id":11190137}' id="post-10364177">
+              <div class="post_grid">
+               <div class="post_votes">
+                <a class="vote_up_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote up">
+                 <svg aria-hidden="" class="svgicon icon_vote_up" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+                  <polygon points="2 18 12 6 22 18">
+                  </polygon>
+                 </svg>
+                </a>
+                <a class="vote_down_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote down">
+                 <svg aria-hidden="" class="svgicon icon_vote_down" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+                  <polygon points="2 6 12 18 22 6">
+                  </polygon>
+                 </svg>
+                </a>
+               </div>
+               <a class="avatar_container" href="https://itch.io/profile/therealhosshaws">
+                <div class="post_avatar" style="background-image: url(/static/images/frog-red.png)">
+                </div>
+               </a>
+               <div class="post_header">
+                <span class="post_author">
+                 <a href="https://itch.io/profile/therealhosshaws">
+                  therealhosshaws
+                 </a>
+                </span>
+                <span class="post_date" title="2024-07-22 23:31:12">
+                 <a href="https://itch.io/post/10364177">
+                  201 days ago
+                 </a>
+                </span>
+                <span class="vote_counts">
+                </span>
+               </div>
+               <div class="post_content">
+                <div class="post_body user_formatted" dir="auto">
+                 <p>
+                  What is this conversation ???
+                 </p>
+                </div>
+                <div class="post_footer">
+                 <a class="post_action reply_btn" data-register_action="community_reply" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community">
+                  Reply
+                 </a>
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="community_post_replies">
+              <div class="community_post has_vote_column is_reply" data-post='{"id":10367648,"user_id":5043718}' id="post-10367648">
+               <div class="post_grid">
+                <div class="post_votes">
+                 <a class="vote_up_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote up">
+                  <svg aria-hidden="" class="svgicon icon_vote_up" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+                   <polygon points="2 18 12 6 22 18">
+                   </polygon>
+                  </svg>
+                 </a>
+                 <a class="vote_down_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote down">
+                  <svg aria-hidden="" class="svgicon icon_vote_down" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+                   <polygon points="2 6 12 18 22 6">
+                   </polygon>
+                  </svg>
+                 </a>
+                </div>
+                <a class="avatar_container" href="https://itch.io/profile/rydenji">
+                 <div class="post_avatar" style="background-image: url(https://img.itch.zone/aW1nLzEzMDg4NzI5LnBuZw==/25x25%23/ybRlXj.png)">
+                 </div>
+                </a>
+                <div class="post_header">
+                 <span class="post_author">
+                  <a href="https://itch.io/profile/rydenji">
+                   Mastergemu
+                  </a>
+                 </span>
+                 <span class="post_date" title="2024-07-23 09:13:19">
+                  <a href="https://itch.io/post/10367648">
+                   201 days ago
+                  </a>
+                 </span>
+                 <span class="vote_counts">
+                 </span>
+                </div>
+                <div class="post_content">
+                 <div class="post_body user_formatted" dir="auto">
+                  <p>
+                   lol, since 3 years ago...
+                   <br/>
+                   i was young
+                  </p>
+                 </div>
+                 <div class="post_footer">
+                  <a class="post_action reply_btn" data-register_action="community_reply" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community">
+                   Reply
+                  </a>
+                 </div>
+                </div>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="community_post has_vote_column has_replies" data-post='{"id":4762474,"user_id":954040}' id="post-4762474">
+           <div class="post_grid">
+            <div class="post_votes">
+             <a class="vote_up_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote up">
+              <svg aria-hidden="" class="svgicon icon_vote_up" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+               <polygon points="2 18 12 6 22 18">
+               </polygon>
+              </svg>
+             </a>
+             <a class="vote_down_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote down">
+              <svg aria-hidden="" class="svgicon icon_vote_down" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+               <polygon points="2 6 12 18 22 6">
+               </polygon>
+              </svg>
+             </a>
+            </div>
+            <a class="avatar_container" href="https://itch.io/profile/darknior">
+             <div class="post_avatar" style="background-image: url(https://img.itch.zone/aW1nLzI3Mjk2OTQuZ2lm/25x25%23/a5Mtm%2B.gif)">
+             </div>
+            </a>
+            <div class="post_header">
+             <span class="post_author">
+              <a href="https://itch.io/profile/darknior">
+               Darknior
+              </a>
+             </span>
+             <span class="post_date" title="2021-10-19 14:08:38">
+              <a href="https://itch.io/post/4762474">
+               3 years ago
+              </a>
+             </span>
+             <span class="vote_counts">
+             </span>
+            </div>
+            <div class="post_content">
+             <div class="post_body user_formatted" dir="auto">
+              <p>
+               Thanksa lot for this game, it's really fun to play with it :)
+              </p>
+             </div>
+             <div class="post_footer">
+              <a class="post_action reply_btn" data-register_action="community_reply" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community">
+               Reply
+              </a>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="community_post_replies top_level_replies">
+           <div class="community_post has_vote_column is_reply" data-post='{"id":4767734,"user_id":2075623}' id="post-4767734">
+            <div class="post_grid">
+             <div class="post_votes">
+              <a class="vote_up_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote up">
+               <svg aria-hidden="" class="svgicon icon_vote_up" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+                <polygon points="2 18 12 6 22 18">
+                </polygon>
+               </svg>
+              </a>
+              <a class="vote_down_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote down">
+               <svg aria-hidden="" class="svgicon icon_vote_down" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+                <polygon points="2 6 12 18 22 6">
+                </polygon>
+               </svg>
+              </a>
+             </div>
+             <a class="avatar_container" href="https://itch.io/profile/yolwoocle">
+              <div class="post_avatar" style="background-image: url(https://img.itch.zone/aW1nLzE3ODc2OTE0LnBuZw==/25x25%23/2yXv48.png)">
+              </div>
+             </a>
+             <div class="post_header">
+              <span class="post_author">
+               <a href="https://itch.io/profile/yolwoocle">
+                Yolwoocle
+               </a>
+              </span>
+              <span class="post_date" title="2021-10-20 16:02:51">
+               <a href="https://itch.io/post/4767734">
+                3 years ago
+               </a>
+              </span>
+              <span class="vote_counts">
+               <span class="upvotes">
+                (+1)
+               </span>
+              </span>
+             </div>
+             <div class="post_content">
+              <div class="post_body user_formatted" dir="auto">
+               <p>
+                Thank, I'm glad you enjoyed it! :)
+               </p>
+              </div>
+              <div class="post_footer">
+               <a class="post_action reply_btn" data-register_action="community_reply" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community">
+                Reply
+               </a>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="community_post has_vote_column has_replies" data-post='{"id":2315301,"user_id":3710711}' id="post-2315301">
+           <div class="post_anchor" id="last-post">
+           </div>
+           <div class="post_grid">
+            <div class="post_votes">
+             <a class="vote_up_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote up">
+              <svg aria-hidden="" class="svgicon icon_vote_up" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+               <polygon points="2 18 12 6 22 18">
+               </polygon>
+              </svg>
+             </a>
+             <a class="vote_down_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote down">
+              <svg aria-hidden="" class="svgicon icon_vote_down" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+               <polygon points="2 6 12 18 22 6">
+               </polygon>
+              </svg>
+             </a>
+            </div>
+            <a class="avatar_container" href="https://itch.io/profile/jimcorp">
+             <div class="post_avatar" style="background-image: url(https://img.itch.zone/aW1nLzkwNjg1NDMucG5n/25x25%23/BMgwNr.png)">
+             </div>
+            </a>
+            <div class="post_header">
+             <span class="post_author">
+              <a href="https://itch.io/profile/jimcorp">
+               JimCorp
+              </a>
+             </span>
+             <span class="post_date" title="2020-12-16 10:14:35">
+              <a href="https://itch.io/post/2315301">
+               4 years ago
+              </a>
+             </span>
+             <span class="vote_counts">
+              <span class="upvotes">
+               (+1)
+              </span>
+             </span>
+            </div>
+            <div class="post_content">
+             <div class="post_body user_formatted" dir="auto">
+              <p>
+               I really like what you've done here, it's excellent! Also, I found a glitch. When you reach 3500 points, a whole bunch of stuff stacks on the right side of the screen. Thanks for making this &lt;3
+              </p>
+             </div>
+             <div class="post_footer">
+              <a class="post_action reply_btn" data-register_action="community_reply" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community">
+               Reply
+              </a>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="community_post_replies top_level_replies">
+           <div class="community_post has_vote_column is_reply" data-post='{"id":2316531,"user_id":2075623}' id="post-2316531">
+            <div class="post_grid">
+             <div class="post_votes">
+              <a class="vote_up_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote up">
+               <svg aria-hidden="" class="svgicon icon_vote_up" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+                <polygon points="2 18 12 6 22 18">
+                </polygon>
+               </svg>
+              </a>
+              <a class="vote_down_btn vote_btn" data-register_action="community_vote" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community" title="Vote down">
+               <svg aria-hidden="" class="svgicon icon_vote_down" height="20" role="img" version="1.1" viewbox="0 0 24 24" width="20">
+                <polygon points="2 6 12 18 22 6">
+                </polygon>
+               </svg>
+              </a>
+             </div>
+             <a class="avatar_container" href="https://itch.io/profile/yolwoocle">
+              <div class="post_avatar" style="background-image: url(https://img.itch.zone/aW1nLzE3ODc2OTE0LnBuZw==/25x25%23/2yXv48.png)">
+              </div>
+             </a>
+             <div class="post_header">
+              <span class="post_author">
+               <a href="https://itch.io/profile/yolwoocle">
+                Yolwoocle
+               </a>
+              </span>
+              <span class="post_date" title="2020-12-16 17:53:07">
+               <a href="https://itch.io/post/2316531">
+                4 years ago
+               </a>
+              </span>
+              <span class="vote_counts">
+               <span class="upvotes">
+                (+1)
+               </span>
+              </span>
+             </div>
+             <div class="post_content">
+              <div class="post_body user_formatted" dir="auto">
+               <p>
+                Thank you very much, I'm glad you enjoyed it! I'll look into what caused this bug!
+               </p>
+              </div>
+              <div class="post_footer">
+               <a class="post_action reply_btn" data-register_action="community_reply" href="https://itch.io/login?return_to=https%3A%2F%2Fyolwoocle.itch.io%2Fpico-dino&amp;intent=community">
+                Reply
+               </a>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <script id="vote_counts_tpl" type="text/template">
+           <% if (up_score > 0) { %><span class="upvotes">(+{{up_score}})</span><% } %><% if (down_score > 0) { %><span class="downvotes">(-{{down_score}})</span><% } %>
+          </script>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="right_col column">
+       <div class="video_embed">
+       </div>
+       <div class="screenshot_list">
+        <a data-image_lightbox="true" href="https://img.itch.zone/aW1hZ2UvODUyMDk5LzQ3ODQxMzQuZ2lm/original/3LXL8w.gif" target="_blank">
+         <img class="screenshot" data-screenshot_id="4784134" src="https://img.itch.zone/aW1hZ2UvODUyMDk5LzQ3ODQxMzQuZ2lm/347x500/pfsFnk.gif" srcset="https://img.itch.zone/aW1hZ2UvODUyMDk5LzQ3ODQxMzQuZ2lm/347x500/pfsFnk.gif 1x, https://img.itch.zone/aW1hZ2UvODUyMDk5LzQ3ODQxMzQuZ2lm/794x1000/aPG%2FW1.gif 2x"/>
+        </a>
+        <a data-image_lightbox="true" href="https://img.itch.zone/aW1hZ2UvODUyMDk5LzQ3ODQxMzcucG5n/original/%2Fjcle8.png" target="_blank">
+         <img class="screenshot" data-screenshot_id="4784137" src="https://img.itch.zone/aW1hZ2UvODUyMDk5LzQ3ODQxMzcucG5n/347x500/lUtvzk.png" srcset="https://img.itch.zone/aW1hZ2UvODUyMDk5LzQ3ODQxMzcucG5n/347x500/lUtvzk.png 1x, https://img.itch.zone/aW1hZ2UvODUyMDk5LzQ3ODQxMzcucG5n/794x1000/0bBehj.png 2x"/>
+        </a>
+        <a data-image_lightbox="true" href="https://img.itch.zone/aW1hZ2UvODUyMDk5LzQ3ODQxMzYucG5n/original/0qJS6%2F.png" target="_blank">
+         <img class="screenshot" data-screenshot_id="4784136" src="https://img.itch.zone/aW1hZ2UvODUyMDk5LzQ3ODQxMzYucG5n/347x500/ehjtWD.png" srcset="https://img.itch.zone/aW1hZ2UvODUyMDk5LzQ3ODQxMzYucG5n/347x500/ehjtWD.png 1x, https://img.itch.zone/aW1hZ2UvODUyMDk5LzQ3ODQxMzYucG5n/794x1000/x0Tnzg.png 2x"/>
+        </a>
+        <a data-image_lightbox="true" href="https://img.itch.zone/aW1hZ2UvODUyMDk5LzQ3ODQxMzUuZ2lm/original/784OFu.gif" target="_blank">
+         <img class="screenshot" data-screenshot_id="4784135" src="https://img.itch.zone/aW1hZ2UvODUyMDk5LzQ3ODQxMzUuZ2lm/347x500/xwijqn.gif" srcset="https://img.itch.zone/aW1hZ2UvODUyMDk5LzQ3ODQxMzUuZ2lm/347x500/xwijqn.gif 1x, https://img.itch.zone/aW1hZ2UvODUyMDk5LzQ3ODQxMzUuZ2lm/794x1000/GUMLwq.gif 2x"/>
+        </a>
+        <a data-image_lightbox="true" href="https://img.itch.zone/aW1hZ2UvODUyMDk5LzQ3ODQxMzMucG5n/original/O4U2Si.png" target="_blank">
+         <img class="screenshot" data-screenshot_id="4784133" src="https://img.itch.zone/aW1hZ2UvODUyMDk5LzQ3ODQxMzMucG5n/347x500/BkItl0.png" srcset="https://img.itch.zone/aW1hZ2UvODUyMDk5LzQ3ODQxMzMucG5n/347x500/BkItl0.png 1x, https://img.itch.zone/aW1hZ2UvODUyMDk5LzQ3ODQxMzMucG5n/794x1000/JwmsSJ.png 2x"/>
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="footer" id="view_game_footer">
+     <a class="icon_logo" href="https://itch.io/">
+      <svg aria-hidden="" class="svgicon icon_itchio_new" height="17" role="img" version="1.1" viewbox="0 0 262.728 235.452" width="20">
+       <path d="M31.99 1.365C21.287 7.72.2 31.945 0 38.298v10.516C0 62.144 12.46 73.86 23.773 73.86c13.584 0 24.902-11.258 24.903-24.62 0 13.362 10.93 24.62 24.515 24.62 13.586 0 24.165-11.258 24.165-24.62 0 13.362 11.622 24.62 25.207 24.62h.246c13.586 0 25.208-11.258 25.208-24.62 0 13.362 10.58 24.62 24.164 24.62 13.585 0 24.515-11.258 24.515-24.62 0 13.362 11.32 24.62 24.903 24.62 11.313 0 23.773-11.714 23.773-25.046V38.298c-.2-6.354-21.287-30.58-31.988-36.933C180.118.197 157.056-.005 122.685 0c-34.37.003-81.228.54-90.697 1.365zm65.194 66.217a28.025 28.025 0 0 1-4.78 6.155c-5.128 5.014-12.157 8.122-19.906 8.122a28.482 28.482 0 0 1-19.948-8.126c-1.858-1.82-3.27-3.766-4.563-6.032l-.006.004c-1.292 2.27-3.092 4.215-4.954 6.037a28.5 28.5 0 0 1-19.948 8.12c-.934 0-1.906-.258-2.692-.528-1.092 11.372-1.553 22.24-1.716 30.164l-.002.045c-.02 4.024-.04 7.333-.06 11.93.21 23.86-2.363 77.334 10.52 90.473 19.964 4.655 56.7 6.775 93.555 6.788h.006c36.854-.013 73.59-2.133 93.554-6.788 12.883-13.14 10.31-66.614 10.52-90.474-.022-4.596-.04-7.905-.06-11.93l-.003-.045c-.162-7.926-.623-18.793-1.715-30.165-.786.27-1.757.528-2.692.528a28.5 28.5 0 0 1-19.948-8.12c-1.862-1.822-3.662-3.766-4.955-6.037l-.006-.004c-1.294 2.266-2.705 4.213-4.563 6.032a28.48 28.48 0 0 1-19.947 8.125c-7.748 0-14.778-3.11-19.906-8.123a28.025 28.025 0 0 1-4.78-6.155 27.99 27.99 0 0 1-4.736 6.155 28.49 28.49 0 0 1-19.95 8.124c-.27 0-.54-.012-.81-.02h-.007c-.27.008-.54.02-.813.02a28.49 28.49 0 0 1-19.95-8.123 27.992 27.992 0 0 1-4.736-6.155zm-20.486 26.49l-.002.01h.015c8.113.017 15.32 0 24.25 9.746 7.028-.737 14.372-1.105 21.722-1.094h.006c7.35-.01 14.694.357 21.723 1.094 8.93-9.747 16.137-9.73 24.25-9.746h.014l-.002-.01c3.833 0 19.166 0 29.85 30.007L210 165.244c8.504 30.624-2.723 31.373-16.727 31.4-20.768-.773-32.267-15.855-32.267-30.935-11.496 1.884-24.907 2.826-38.318 2.827h-.006c-13.412 0-26.823-.943-38.318-2.827 0 15.08-11.5 30.162-32.267 30.935-14.004-.027-25.23-.775-16.726-31.4L46.85 124.08c10.684-30.007 26.017-30.007 29.85-30.007zm45.985 23.582v.006c-.02.02-21.863 20.08-25.79 27.215l14.304-.573v12.474c0 .584 5.74.346 11.486.08h.006c5.744.266 11.485.504 11.485-.08v-12.474l14.304.573c-3.928-7.135-25.79-27.215-25.79-27.215v-.006l-.003.002z">
+       </path>
+      </svg>
+     </a>
+     <a href="https://itch.io/">
+      itch.io
+     </a>
+     <span class="dot">
+      ·
+     </span>
+     <a href="https://yolwoocle.itch.io">
+      View all by Yolwoocle
+     </a>
+     <span class="dot">
+      ·
+     </span>
+     <a class="report_game_btn" data-lightbox_url="https://yolwoocle.itch.io/pico-dino/report" href="javascript:void(0);">
+      Report
+     </a>
+     <span class="dot">
+      ·
+     </span>
+     <a class="embed_game_btn" data-lightbox_url="https://yolwoocle.itch.io/pico-dino/embed" href="javascript:void(0);">
+      Embed
+     </a>
+     <div class="breadcrumbs">
+      <a href="https://itch.io/games">
+       Games
+      </a>
+      ›
+      <a href="https://itch.io/games/genre-platformer">
+       Platformer
+      </a>
+      ›
+      <a href="https://itch.io/games/free">
+       Free
+      </a>
+     </div>
+    </div>
+   </div>
+  </div>
+  <script type="text/javascript">
+   I.setup_layout()
+  </script>
+  <script id="loading_lightbox_tpl" type="text/template">
+   <div aria-live="polite" class="lightbox loading_lightbox"><div class="loader_outer"><div class="loader_label">Loading</div><div class="loader_bar"><div class="loader_bar_slider"></div></div></div></div>
+  </script>
+  <script type="text/javascript">
+   init_HtmlEmbed('#html_embed_9453909', {"height":640,"start_maximized":false,"width":750});new I.CommunityViewTopic('#community_topic_posts_812680', {"report_url":"https:\/\/itch.io\/post\/:post_id\/report"});init_ViewHtmlGame('#view_html_game_1977899', {"game":{"hit_url":"https:\/\/yolwoocle.itch.io\/pico-dino\/rh\/eyJlIjoxNzM5MTEzNDc2LCJpZCI6ODUyMDk5fQ%3d%3d%2edv13ns9nwae2qxnp3XOxHeYGqVc%3d","play_url":"https:\/\/yolwoocle.itch.io\/pico-dino\/rp\/eyJlIjoxNzM5MTEzNjExLCJybiI6NjEyOSwiaWQiOjg1MjA5OSwibSI6MTczOTExMzU1MX0%3d%2eCltnOUkIQfEV9nAFEtdSLLeJYU8%3d","play_after":90,"min_price":0,"id":852099,"type":5,"slug":"pico-dino","actual_price":0,"type_name":"html"}});
+I.setup_page();
+  </script>
+ </body>
+</html>
