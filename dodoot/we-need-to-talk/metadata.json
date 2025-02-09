@@ -1,0 +1,51 @@
+{
+    "game_id": 1469155,
+    "title": "We Need To Talk",
+    "url": "https://dodoot.itch.io/we-need-to-talk",
+    "cover_url": "https://img.itch.zone/aW1nLzg1ODU0MDUucG5n/original/FM2saK.png",
+    "screenshots": [
+        "https://img.itch.zone/aW1hZ2UvMTQ2OTE1NS84NTg1ODM4LnBuZw==/original/xOtcEX.png",
+        "https://img.itch.zone/aW1hZ2UvMTQ2OTE1NS84NTg1ODM3LnBuZw==/original/2M74dj.png"
+    ],
+    "description": "LD 50 - Conversation Fighting Game",
+    "author": "Multiple authors",
+    "author_url": "https://dodoot.itch.io",
+    "extra": {
+        "status": "Released",
+        "platforms": [
+            "HTML5",
+            "Windows",
+            "Linux"
+        ],
+        "authors": {
+            "Doot": "https://dodoot.itch.io",
+            "dorirandri": "https://dorirandri.itch.io"
+        },
+        "genre": {
+            "Action": "https://itch.io/games/genre-action",
+            "Fighting": "https://itch.io/games/tag-fighting"
+        },
+        "tools": {
+            "Unity": "https://itch.io/games/made-with-unity"
+        },
+        "tags": {
+            "2D": "https://itch.io/games/tag-2d",
+            "Arcade": "https://itch.io/games/tag-arcade",
+            "Cute": "https://itch.io/games/tag-cute",
+            "Funny": "https://itch.io/games/tag-funny",
+            "Ludum Dare 50": "https://itch.io/games/tag-ludum-dare-50",
+            "Short": "https://itch.io/games/tag-short",
+            "Unity": "https://itch.io/games/tag-unity",
+            "web": "https://itch.io/games/tag-web"
+        },
+        "links": {
+            "Ludum Dare": "https://ldjam.com/events/ludum-dare/50/we-need-to-talk"
+        }
+    },
+    "rating": {
+        "average": 4.6,
+        "votes": 78
+    },
+    "errors": [],
+    "external_downloads": []
+}
